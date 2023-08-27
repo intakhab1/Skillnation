@@ -20,6 +20,16 @@ Deployed the webapp back-end on RENDER and front-end on VERCEL, ensuring fast gl
 - Video playback functionality
 - Cloud-based media management: using Cloudinary, to store and manage all media content
 
+<br>
+
+##  API Testing
+
+- Tested the available API endpoints, the required parameters for each endpoint, the expected responses, authentication methods and examples to demonstrate usage of Skill Nation API via the POSTMAN platform 
+- The description of the API design, list of API endpoints, their functionalities, and sample API requests and responses
+- Here's the complete overview of Skill Nation API testing
+<pre>
+<a href="https://documenter.getpostman.com/view/17664276/2s9Y5YS2ky">View Postman Documentation</a>
+</pre>
 
 <br>
 
@@ -44,17 +54,6 @@ platform:
 - The back end also handles the logic for processing and storing the course content and user data
 
 <h6 align="center"><img src="/src/assets/Images/Data Models.png" height="250" /></p></h6>
-
-<br>
-
-## 🔃 API Testing
-
-- Tested the available API endpoints, the required parameters for each endpoint, the expected responses, authentication methods and examples to demonstrate usage of Skill Nation API via the POSTMAN platform 
-- The description of the API design, list of API endpoints, their functionalities, and sample API requests and responses
-- Here's the complete overview of Skill Nation API testing
-<pre>
-<a href="https://documenter.getpostman.com/view/17664276/2s9Y5YS2ky">View Postman Documentation</a>
-</pre>
 
 <br>
 
