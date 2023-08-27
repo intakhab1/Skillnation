@@ -12,7 +12,6 @@
 
 <h3><a href="https://skillnation.vercel.app/">skillnation.vercel.app/</a> </h3>
 
-<br>
 
 ##  Project Description
 
@@ -22,7 +21,7 @@ content.
 - Created using React.JS and Tailwind CSS for front-end development and Express.JS and Node.JS for back-end
 development and MongoDB for Database storage
 - Deployed the webapp back-end on RENDER and front-end on VERCEL, ensuring fast global delivery and automatic scaling
-<br>
+
 
 ## 💻 Features
 
@@ -32,7 +31,7 @@ development and MongoDB for Database storage
 - Bcrypt: Bcrypt is used for password hashing
 - Video playback functionality
 - Cloud-based media management: using Cloudinary, to store and manage all media content
-<br>
+
 
 ##  API Testing
 
@@ -42,7 +41,7 @@ development and MongoDB for Database storage
 <pre>
 <a href="https://documenter.getpostman.com/view/17664276/2s9Y5YS2ky">View Postman Documentation</a>
 </pre>
-<br>
+
 
 ##  Architecture Diagram
 
@@ -55,7 +54,7 @@ development and MongoDB for Database storage
 platform:
 
 <h6 align="center"><img src="/src/assets/Images/Architecture.png" height="250" /></p></h6>
-<br>
+
 
 ##  Data Models
 
@@ -64,7 +63,7 @@ platform:
 - The back end also handles the logic for processing and storing the course content and user data
 
 <h6 align="center"><img src="/src/assets/Images/Data Models.png" height="250" /></p></h6>
-<br>
+
 
 ##  Getting started
 
@@ -76,12 +75,12 @@ The frontend was bootstrapped with Create React App. In the project root directo
 <pre>
 REACT_APP_SERVER=http://localhost:4000/api/v1/
 </pre>
-<br>
+
 
 ##  Tools and Frameworks
 
 <h6 align="center"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-CC6699?style=for-the-badge&logo=CSS3&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"> <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"> <img src="https://img.shields.io/badge/VSCode-blue?style=for-the-badge&logo=visualstudiocode&logoColor=white"></h6>
-<br>
+
 
 ## Contributing
 
