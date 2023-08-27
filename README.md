@@ -1,12 +1,14 @@
 
-<h6 align="center"><a href="https://skillnation.vercel.app/"><img src="src/assets/Logo/Logo-Full-Light.PNG" height="80"/></a></p></h6>
-<h1 align="center"><code>&nbsp;Skill Nation an EdTech Platform &nbsp;</code></h1>
+<h6 align="center"><a href="https://skillnation.vercel.app/"><img src="src/assets/Logo/Logo-Full-Light.PNG" height="70"/></a></p></h6>
+<h1 align="center"><code>&nbsp;Skill-Nation an EdTech Platform &nbsp;</code></h1>
+
 
 <div align="center">
   <a href="https://skillnation.vercel.app/">
     <img alt="Mockup" src="src/assets/Images/macbook.PNG" />
   </a>
 </div>
+
 
 <h2><a href="https://skillnation.vercel.app/">skillnation.vercel.app/</a> </h2>
 
@@ -15,7 +17,6 @@ This is the Content-driven webapp on which Authorised user can Buy the courses, 
 Created using React.JS and Tailwind CSS for front-end development and Express.JS and Node.JS for back-end development and MongoDB for Database storage
 
 Deployed the webapp back-end on RENDER and front-end on VERCEL, ensuring fast global delivery and automatic scaling
-
 <br>
 
 ## 💻 Features
