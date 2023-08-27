@@ -1,6 +1,6 @@
 
 <h6 align="center"><a href="https://skillnation.vercel.app/"><img src="src/assets/Logo/Logo-Full-Light.PNG" height="70"/></a></p></h6>
-<h1 align="center"><code>&nbsp;Skill-Nation an EdTech Platform &nbsp;</code></h1>
+<h1 align="center">Skill-Nation an EdTech Platform</h1>
 
 
 <div align="center">
@@ -10,7 +10,7 @@
 </div>
 
 
-<h2><a href="https://skillnation.vercel.app/">skillnation.vercel.app/</a> </h2>
+<h2 align="center"><a href="https://skillnation.vercel.app/">skillnation.vercel.app/</a> </h2>
 
 This is the Content-driven webapp on which Authorised user can Buy the courses, Instuctor can Create the courses to Sell and Admin Manages the platform
 
