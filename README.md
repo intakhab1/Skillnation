@@ -10,7 +10,7 @@
 </div>
 
 
-<h2 align="center"><a href="https://skillnation.vercel.app/">skillnation.vercel.app/</a> </h2>
+<h2><a href="https://skillnation.vercel.app/">skillnation.vercel.app/</a> </h2>
 
 This is the Content-driven webapp on which Authorised user can Buy the courses, Instuctor can Create the courses to Sell and Admin Manages the platform
 
