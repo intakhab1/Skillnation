@@ -1,6 +1,7 @@
 
-<h6 align="center"><img src="src/assets/Logo/Logo-Full-Light.PNG"/></p></h6>
+<h6 align="center"><img src="src/assets/Logo/Logo-Full-Light.PNG" height="100"/></p></h6>
 <h1 align="center"><code>&nbsp;Skill Nation an EdTech Platform &nbsp;</code></h1>
+<h2><a href="https://skillnation.vercel.app/">skillnation.vercel.app/</a> </h2>
 
 This is the Content-driven MERN stack webapp on which Authorised user can Buy the courses, Instuctor can Create the courses to Sell and Admin Manages the platform
 
@@ -43,12 +44,12 @@ manage data
 
 Tested the endpoints, functionality and authentication methods of Skill Nation API via the POSTMAN platform 
 <pre>
-Postman = https://documenter.getpostman.com/view/17664276/2s9Y5YS2ky
+<a href="https://documenter.getpostman.com/view/17664276/2s9Y5YS2ky">Postman Documentation</a>
 </pre>
 
 <br>
 
-## 💻 Getting started
+##  Getting started
 
 The frontend was bootstrapped with Create React App. In the project root directory, run `npm install` to install all project dependencies. Next, run `npm start` to start the developmental server which will trigger open your default browser to `localhost:3000`. Run `npm install` and `npm run dev` in [`server`](./server) directory to set up the Express server.
 
@@ -61,7 +62,7 @@ REACT_APP_SERVER=http://localhost:4000/api/v1/
 
 <br>
 
-## ⚒️ Tools and Frameworks
+##  Tools and Frameworks
 
 <h6 align="center"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-CC6699?style=for-the-badge&logo=CSS3&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"> <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"> <img src="https://img.shields.io/badge/VSCode-blue?style=for-the-badge&logo=visualstudiocode&logoColor=white"></h6>
 
