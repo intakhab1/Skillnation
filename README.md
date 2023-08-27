@@ -1,5 +1,5 @@
 
-<h6 align="center"><img src="src/assets/Logo/Logo-Full-Light.PNG" height="100"/></p></h6>
+<h6 align="center"><a href="https://skillnation.vercel.app/"><img src="src/assets/Logo/Logo-Full-Light.PNG" height="100"/></a></p></h6>
 <h1 align="center"><code>&nbsp;Skill Nation an EdTech Platform &nbsp;</code></h1>
 <h2><a href="https://skillnation.vercel.app/">skillnation.vercel.app/</a> </h2>
 
