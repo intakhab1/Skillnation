@@ -1,6 +1,6 @@
 
-<h6 align="center"><a href="https://skillnation.vercel.app/"><img src="src/assets/Logo/Logo-Full-Light.PNG" height="70"/></a></p></h6>
-<h1 align="center">Skill-Nation an EdTech Platform</h1>
+<h6 align="center"><a href="https://skillnation.vercel.app/"><img src="src/assets/Logo/Logo-Full-Light.PNG" height="60"/></a></p></h6>
+<h1 align="center"><a href="https://skillnation.vercel.app/">Skill-Nation an EdTech Platform</a></h1>
 
 
 <div align="center">
