@@ -25,10 +25,10 @@ Deployed the webapp back-end on RENDER and front-end on VERCEL, ensuring fast gl
 
 ##  Architecture Diagram
 
-MongoDB is used as the primary database
-Node.js is used as the primary framework for the back end
-Express.js is used as a web application framework
-Mongoose is used as an Object Data Modeling (ODM) library, providing a way to interact with MongoDB using JavaScript.
+- MongoDB is used as the primary database
+- Node.js is used as the primary framework for the back end
+- Express.js is used as a web application framework
+- Mongoose is used as an Object Data Modeling (ODM) library, providing a way to interact with MongoDB using JavaScript.
 
 - Here is a high-level diagram that illustrates the architecture of the StudyNotion ed-tech
 platform:
@@ -39,9 +39,9 @@ platform:
 
 ##  Data Models
 
-The back end of Skill Nation uses a range of data models and database schemas to manage data
-The back end provides APIs for the front end to consume, which include functionalities such as user authentication, course creation, and course consumption.
-The back end also handles the logic for processing and storing the course content and user data
+- The back end of Skill Nation uses a range of data models and database schemas to manage data
+- The back end provides APIs for the front end to consume, which include functionalities such as user authentication, course creation, and course consumption.
+- The back end also handles the logic for processing and storing the course content and user data
 
 <h6 align="center"><img src="/src/assets/Images/Data Models.png" height="250" /></p></h6>
 
@@ -49,8 +49,8 @@ The back end also handles the logic for processing and storing the course conten
 
 ## 🔃 API Testing
 
-Tested the available API endpoints, the required parameters for each endpoint, the expected responses, authentication methods and examples to demonstrate usage of Skill Nation API via the POSTMAN platform 
-The description of the API design, list of API endpoints, their functionalities, and sample API requests and responses
+- Tested the available API endpoints, the required parameters for each endpoint, the expected responses, authentication methods and examples to demonstrate usage of Skill Nation API via the POSTMAN platform 
+- The description of the API design, list of API endpoints, their functionalities, and sample API requests and responses
 - Here's the complete overview of Skill Nation API testing
 <pre>
 <a href="https://documenter.getpostman.com/view/17664276/2s9Y5YS2ky">View Postman Documentation</a>
