@@ -39,17 +39,17 @@ function Navbar() {
 
   return (
     <div
-      className={` flex flex-wrap flex-col md:flex-row items-center border-b-[1px] border-b-richblack-700 ${
+      className={`p-2 flex flex-wrap flex-col md:flex-row items-center border-b-[1px] border-b-richblack-700 ${
         location.pathname !== "/" ? "bg-richblack-800" : ""
       } transition-all duration-200`}
     >
-      <div className="p-3 md:ml-auto md:mr-auto flex flex-wrap items-center  justify-center w-11/12 max-w-maxContent md:justify-between">
+      <div className="md:ml-auto md:mr-auto flex flex-wrap items-center  justify-center w-11/12 max-w-maxContent md:justify-between">
         {/* Logo */}
         <Link to="/">
           <img src={logo} alt="Logo" width={160} height={32} loading="lazy" />
         </Link>
         {/* Navigation links */}
-        <nav className=" p-3 md:block">
+        <nav className=" mt-2 mb-2 md:block">
           <ul className="flex gap-x-6 text-richblack-25">
             {NavbarLinks.map((link, index) => (
               <li key={index}>
@@ -95,7 +95,7 @@ function Navbar() {
           </ul>
         </nav>
         {/* Login / Signup / Dashboard */}
-        <div className="p-1 items-center space-x-4  md:flex">
+        <div className="mt-2 mb-1 items-center space-x-3  md:flex">
           {user && user?.accountType !== ACCOUNT_TYPE.INSTRUCTOR && (
             <Link to="/dashboard/cart" className="relative">
               <AiOutlineShoppingCart className="text-2xl text-richblack-100" />
