@@ -1,9 +1,9 @@
 
-<h6 align="center"><a href="https://skillnation.vercel.app/"><img src="src/assets/Logo/Logo-Full-Light.PNG" height="100"/></a></p></h6>
+<h6 align="center"><a href="https://skillnation.vercel.app/"><img src="src/assets/Logo/Logo-Full-Light.PNG" height="80"/></a></p></h6>
 <h1 align="center"><code>&nbsp;Skill Nation an EdTech Platform &nbsp;</code></h1>
 <h2><a href="https://skillnation.vercel.app/">skillnation.vercel.app/</a> </h2>
 
-This is the Content-driven MERN stack webapp on which Authorised user can Buy the courses, Instuctor can Create the courses to Sell and Admin Manages the platform
+This is the Content-driven webapp on which Authorised user can Buy the courses, Instuctor can Create the courses to Sell and Admin Manages the platform
 
 Created using React.JS and Tailwind CSS for front-end development and Express.JS and Node.JS for back-end development and MongoDB for Database storage
 
@@ -25,7 +25,12 @@ Deployed the webapp back-end on RENDER and front-end on VERCEL, ensuring fast gl
 
 ##  Architecture Diagram
 
-Here is a high-level diagram that illustrates the architecture of the StudyNotion ed-tech
+MongoDB is used as the primary database
+Node.js is used as the primary framework for the back end
+Express.js is used as a web application framework
+Mongoose is used as an Object Data Modeling (ODM) library, providing a way to interact with MongoDB using JavaScript.
+
+- Here is a high-level diagram that illustrates the architecture of the StudyNotion ed-tech
 platform:
 
 <h6 align="center"><img src="/src/assets/Images/Architecture.png" height="250" /></p></h6>
@@ -34,17 +39,21 @@ platform:
 
 ##  Data Models
 
-The back end of StudyNotion uses a range of data models and database schemas to
-manage data
+The back end of Skill Nation uses a range of data models and database schemas to manage data
+The back end provides APIs for the front end to consume, which include functionalities such as user authentication, course creation, and course consumption.
+The back end also handles the logic for processing and storing the course content and user data
+
 <h6 align="center"><img src="/src/assets/Images/Data Models.png" height="250" /></p></h6>
 
 <br>
 
 ## 🔃 API Testing
 
-Tested the endpoints, functionality and authentication methods of Skill Nation API via the POSTMAN platform 
+Tested the available API endpoints, the required parameters for each endpoint, the expected responses, authentication methods and examples to demonstrate usage of Skill Nation API via the POSTMAN platform 
+The description of the API design, list of API endpoints, their functionalities, and sample API requests and responses
+- Here's the complete overview of Skill Nation API testing
 <pre>
-<a href="https://documenter.getpostman.com/view/17664276/2s9Y5YS2ky">Postman Documentation</a>
+<a href="https://documenter.getpostman.com/view/17664276/2s9Y5YS2ky">View Postman Documentation</a>
 </pre>
 
 <br>
