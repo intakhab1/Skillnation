@@ -12,11 +12,18 @@
 
 <h2><a href="https://skillnation.vercel.app/">skillnation.vercel.app/</a> </h2>
 
-This is the Content-driven webapp on which Authorised user can Buy the courses, Instuctor can Create the courses to Sell and Admin Manages the platform
 
-Created using React.JS and Tailwind CSS for front-end development and Express.JS and Node.JS for back-end development and MongoDB for Database storage
+<br>
 
-Deployed the webapp back-end on RENDER and front-end on VERCEL, ensuring fast global delivery and automatic scaling
+##  Project Description
+
+- Skill Nation is a fully functional ed-tech platform that enables users to create, consume, and rate educational
+content.
+- In this Content-driven webapp Authorised user can Buy the courses, Instructor can Create the courses to Sell and Admin can Manages the platform
+- Created using React.JS and Tailwind CSS for front-end development and Express.JS and Node.JS for back-end
+development and MongoDB for Database storage
+- Deployed the webapp back-end on RENDER and front-end on VERCEL, ensuring fast global delivery and automatic scaling
+
 <br>
 
 ## 💻 Features
