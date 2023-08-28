@@ -62,16 +62,16 @@ function Home() {
     }
   }, [categoryId])
 
-  if (loading || !catalogPageData) {
-    return (
-      <div className="grid min-h-[calc(100vh-3.5rem)] place-items-center">
-        <div className="spinner"></div>
-      </div>
-    )
-  }
-  if (!loading && !catalogPageData.success) {
-    return <Error />
-  }
+  // if (loading || !catalogPageData) {
+  //   return (
+  //     <div className="grid min-h-[calc(100vh-3.5rem)] place-items-center">
+  //       <div className="spinner"></div>
+  //     </div>
+  //   )
+  // }
+  // if (!loading && !catalogPageData.success) {
+  //   return <Error />
+  // }
 
 
   return (
@@ -148,12 +148,17 @@ function Home() {
               New
             </p>
           </div>
+          {/* Conditional rendering between spinner and course_slider */}
           <div>
-            <Course_Slider Courses={catalogPageData?.data?.selectedCategory?.courses} />
+          {loading || !catalogPageData ? 
+          (      
+            <div className="grid min-h-[250px] place-items-center">
+              <div className="spinner"></div>
+            </div>
+          ):(<Course_Slider Courses={catalogPageData?.data?.selectedCategory?.courses} />)}
+            
           </div>
         </div>
-
-
 
         {/* CTA Buttons */}
         <div className=" mt-4 mb-8 flex flex-row gap-7">
