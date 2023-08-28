@@ -114,41 +114,41 @@ function Home() {
           </CTAButton>
         </div>
 
-      {/************************************************** Courses Sub-Section ********************************************************/}
-      <div className=" mx-auto w-full max-w-maxContentTab px-4 py-12 lg:max-w-maxContent">
-        <div className="section_heading">Courses to get you started</div>
-        <div className="my-4 flex border-b border-b-richblack-600 text-sm">
-          <p
-            className={`px-4 py-2 ${
-              active === 1
-                ? "border-b border-b-yellow-25 text-yellow-25"
-                : "text-richblack-50"
-            } cursor-pointer`}
-            onClick={event =>{
-              setActive(1);
-              setCatalogName("web-development")
-            } }
-          >
-            Most Populer
-          </p>
-          <p
-            className={`px-4 py-2 ${
-              active === 2
-                ? "border-b border-b-yellow-25 text-yellow-25"
-                : "text-richblack-50"
-            } cursor-pointer`}
-            onClick={event =>{
-              setActive(2);
-              setCatalogName("programming-languages")
-            } }
-          >
-            New
-          </p>
+        {/************************************************** Courses Sub-Section ********************************************************/}
+        <div className=" mx-auto w-full max-w-maxContentTab lg:max-w-maxContent">
+          <div className="section_heading">Courses to get you started</div>
+          <div className="my-4 flex border-b border-b-richblack-600 text-sm">
+            <p
+              className={`px-4 py-2 ${
+                active === 1
+                  ? "border-b border-b-yellow-25 text-yellow-25"
+                  : "text-richblack-50"
+              } cursor-pointer`}
+              onClick={event =>{
+                setActive(1);
+                setCatalogName("web-development")
+              } }
+            >
+              Most Populer
+            </p>
+            <p
+              className={`px-4 py-2 ${
+                active === 2
+                  ? "border-b border-b-yellow-25 text-yellow-25"
+                  : "text-richblack-50"
+              } cursor-pointer`}
+              onClick={event =>{
+                setActive(2);
+                setCatalogName("programming-languages")
+              } }
+            >
+              New
+            </p>
+          </div>
+          <div>
+            <Course_Slider Courses={catalogPageData?.data?.selectedCategory?.courses} />
+          </div>
         </div>
-        <div>
-          <Course_Slider Courses={catalogPageData?.data?.selectedCategory?.courses} />
-        </div>
-      </div>
 
         {/* CTA Buttons */}
         <div className="mt-2 mb-8 flex flex-row gap-7">
