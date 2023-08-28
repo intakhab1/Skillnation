@@ -153,7 +153,7 @@ function Home() {
         {/* CTA Buttons */}
         <div className="mt-2 mb-8 flex flex-row gap-7">
           <CTAButton active={true} linkto={"/login"}>
-            Explore More Courses
+            Explore More 
           </CTAButton>
           <CTAButton active={false} linkto={"/signup"}>
             Become Instructor
