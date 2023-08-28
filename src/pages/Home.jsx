@@ -105,7 +105,7 @@ function Home() {
         </div>
 
         {/* CTA Buttons */}
-        <div className="mt-8 flex flex-row gap-7">
+        <div className="mb-6 mt-4 flex flex-row gap-7">
           <CTAButton active={true} linkto={"/signup"}>
             Learn More
           </CTAButton>
@@ -116,8 +116,11 @@ function Home() {
 
         {/************************************************** Courses Sub-Section ********************************************************/}
         <div className=" mx-auto w-full max-w-maxContentTab lg:max-w-maxContent">
-          <div className="section_heading">Courses to get you started</div>
-          <div className="my-4 flex border-b border-b-richblack-600 text-sm">
+          <div className="text-4xl font-semibold">
+                Courses to get you
+                <HighlightText text={"started"} />
+          </div>
+          <div className="mt-6 my-4 flex border-b border-b-richblack-600 text-sm">
             <p
               className={`px-4 py-2 ${
                 active === 1
@@ -150,10 +153,12 @@ function Home() {
           </div>
         </div>
 
+
+
         {/* CTA Buttons */}
-        <div className="mt-2 mb-8 flex flex-row gap-7">
+        <div className=" mt-4 mb-8 flex flex-row gap-7">
           <CTAButton active={true} linkto={"/login"}>
-            Explore More 
+            Explore More
           </CTAButton>
           <CTAButton active={false} linkto={"/signup"}>
             Become Instructor
@@ -175,6 +180,7 @@ function Home() {
             <source src={Banner} type="video/mp4" />
           </video>
         </div>
+
 
         {/* Code Section 1  */}
         <div>
