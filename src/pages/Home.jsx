@@ -15,7 +15,65 @@ import InstructorSection from "../components/core/HomePage/InstructorSection"
 import LearningLanguageSection from "../components/core/HomePage/LearningLanguageSection"
 import TimelineSection from "../components/core/HomePage/Timeline"
 
+
+// catalog
+import React, { useEffect, useState } from "react"
+import { useSelector } from "react-redux"
+import Course_Slider from "../components/core/Catalog/Course_Slider"
+import { apiConnector } from "../services/apiConnector"
+import { categories } from "../services/apis"
+import { getCatalogPageData } from "../services/operations/pageAndComponntDatas"
+import Error from "./Error"
+
 function Home() {
+
+  //l(32-74) initialize the Courses Sub-section
+
+  const { loading } = useSelector((state) => state.profile)
+  const [catalogName , setCatalogName ] = useState("web-development")
+  const [active, setActive] = useState(1)
+  const [catalogPageData, setCatalogPageData] = useState(null)
+  const [categoryId, setCategoryId] = useState("")
+
+  // Fetch  CATEGORY_ID of selected category from CATALOG dropdown  EX-> Web-development
+  useEffect(() => {
+    ;(async () => {
+      try {
+        const res = await apiConnector("GET", categories.CATEGORIES_API)
+        const category_id = res?.data?.data?.filter( (ct) => ct.name.split(" ").join("-").toLowerCase() === catalogName )[0]._id
+        setCategoryId(category_id)
+      } catch (error) {
+        console.log("Could not fetch Categories.", error)
+      }
+    })()
+  }, [catalogName]) // only call useEffect when CATALOG NAME had changed  EX -> web-development / AI-ML / Andoid . FROM the URL
+
+  // Fetch All the COURSES of the CATEGORY_ID ( web-development_id = 29213812983wdw213 )
+  useEffect(() => {
+    if (categoryId) {
+      ;(async () => {
+        try {
+          const res = await getCatalogPageData(categoryId)
+          setCatalogPageData(res)
+        } catch (error) {
+          console.log(error)
+        }
+      })()
+    }
+  }, [categoryId])
+
+  if (loading || !catalogPageData) {
+    return (
+      <div className="grid min-h-[calc(100vh-3.5rem)] place-items-center">
+        <div className="spinner"></div>
+      </div>
+    )
+  }
+  if (!loading && !catalogPageData.success) {
+    return <Error />
+  }
+
+
   return (
     <div>
       {/*********************************************************************************************************
@@ -55,6 +113,56 @@ function Home() {
             Book a Demo
           </CTAButton>
         </div>
+
+      {/************************************************** Courses Sub-Section ********************************************************/}
+      <div className=" mx-auto w-full max-w-maxContentTab px-4 py-12 lg:max-w-maxContent">
+        <div className="section_heading">Courses to get you started</div>
+        <div className="my-4 flex border-b border-b-richblack-600 text-sm">
+          <p
+            className={`px-4 py-2 ${
+              active === 1
+                ? "border-b border-b-yellow-25 text-yellow-25"
+                : "text-richblack-50"
+            } cursor-pointer`}
+            onClick={event =>{
+              setActive(1);
+              setCatalogName("web-development")
+            } }
+          >
+            Most Populer
+          </p>
+          <p
+            className={`px-4 py-2 ${
+              active === 2
+                ? "border-b border-b-yellow-25 text-yellow-25"
+                : "text-richblack-50"
+            } cursor-pointer`}
+            onClick={event =>{
+              setActive(2);
+              setCatalogName("programming-languages")
+            } }
+          >
+            New
+          </p>
+        </div>
+        <div>
+          <Course_Slider Courses={catalogPageData?.data?.selectedCategory?.courses} />
+        </div>
+      </div>
+
+        {/* CTA Buttons */}
+        <div className="mt-2 mb-8 flex flex-row gap-7">
+          <CTAButton active={true} linkto={"/login"}>
+            Explore More Courses
+          </CTAButton>
+          <CTAButton active={false} linkto={"/signup"}>
+            Become Instructor
+          </CTAButton>
+        </div>
+
+        {/************************************************** Courses Sub-Section Ends ********************************************************/}
+
+
 
         {/* Video */}
         <div className="mx-3 my-7 shadow-[10px_-5px_50px_-5px] shadow-blue-200">
