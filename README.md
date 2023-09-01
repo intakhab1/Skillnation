@@ -25,12 +25,25 @@ development and MongoDB for Database storage
 
 ## 💻 Features
 
-- User Authentication and Authorization using JWT (JSON Web Tokens) 
-- Payment Integration: Razorpay integration for payment handling.
-- OTP verification and forgot password functionality for added security
-- Bcrypt: Bcrypt is used for password hashing
-- Video playback functionality
-- Cloud-based media management: using Cloudinary, to store and manage all media content
+- **User authentication and authorization using JWT (JSON Web Tokens):** Students and instructors can sign up and log in to the platform using their email addresses and password. 
+
+- **OTP (One-Time Password) verification :** The platform also supports OTP verification and forgot password functionality for added security.
+
+- **State management :** Redux is used for state management of the application.
+
+- **Course management :** Instructors can create, read, update, and delete courses, as well as manage course content and media. Students can buy , view and can give ratings and review for the courses.
+
+- **Razorpay Payment Integration :** Students can purchase and enroll on courses by completing the checkout flow that is followed by Razorpay integration for payment handling.
+
+- **Tested API :**Tested the available API endpoints, the required parameters for each endpoint, the expected responses, authentication methods and examples to demonstrate usage of Skill Nation API via the Postman platform.
+
+- **Cloud-based media management :** Used Cloudinary, a cloud-based media management service, to store and manage all media content, including images, videos, and documents.
+
+- **Password hashing :** Bcrypt is used for password hashing , it provides an extra layer of security.
+
+- **Course Video playback :** Video playback functionality is supported to consume the educational content by the enrolled users.
+
+- **Deployment :** Deployed the webapp back-end on Render and front-end on Vercel, ensuring fast global delivery and automatic scaling.
 
 
 ##  API Testing

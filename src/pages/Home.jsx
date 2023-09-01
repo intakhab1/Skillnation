@@ -154,6 +154,7 @@ function Home() {
           (      
             <div className="grid min-h-[250px] place-items-center">
               <div className="spinner"></div>
+              <HighlightText text={"Loading courses... Stay with us!"}/>
             </div>
           ):(<Course_Slider Courses={catalogPageData?.data?.selectedCategory?.courses} />)}
             
