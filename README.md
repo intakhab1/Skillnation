@@ -35,7 +35,7 @@ development and MongoDB for Database storage
 
 - **Razorpay Payment Integration :** Students can purchase and enroll on courses by completing the checkout flow that is followed by Razorpay integration for payment handling.
 
-- **Tested API :**Tested the available API endpoints, the required parameters for each endpoint, the expected responses, authentication methods and examples to demonstrate usage of Skill Nation API via the Postman platform.
+- **Tested API :** Tested the available API endpoints, the required parameters for each endpoint, the expected responses, authentication methods and examples to demonstrate usage of Skill Nation API via the Postman platform.
 
 - **Cloud-based media management :** Used Cloudinary, a cloud-based media management service, to store and manage all media content, including images, videos, and documents.
 
